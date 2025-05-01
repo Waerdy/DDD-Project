@@ -45,9 +45,29 @@ public class UI_Script : MonoBehaviour
     }
 
     public GameObject Sign1;
+    public GameObject Sign2;
+    public GameObject Sign3;
+    public GameObject Sign4;
+    public GameObject Sign5;
 
     public void Sign1ExitPress()
     {
         Sign1.SetActive(false);
+    }
+    public void Sign2ExitPress()
+    {
+        Sign2.SetActive(false);
+    }
+    public void Sign3ExitPress()
+    {
+        Sign3.SetActive(false);
+    }
+    public void Sign4ExitPress()
+    {
+        Sign4.SetActive(false);
+    }
+    public void Sign5ExitPress()
+    {
+        Sign5.SetActive(false);
     }
 }
