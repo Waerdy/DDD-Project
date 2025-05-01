@@ -43,4 +43,11 @@ public class UI_Script : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public GameObject Sign1;
+
+    public void Sign1ExitPress()
+    {
+        Sign1.SetActive(false);
+    }
 }
