@@ -2988,6 +2988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIupdate: {fileID: 1162506580}
+  UIupdateShop: {fileID: 979360706}
   CSound: {fileID: 1478295531}
 --- !u!1 &409877015 stripped
 GameObject:
@@ -7932,6 +7933,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970445581}
   m_CullTransparentMesh: 1
+--- !u!114 &979360706 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1151706345134735337, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
+  m_PrefabInstance: {fileID: 1606496019}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &984299901 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4620524264637963558, guid: 2678eed35c49f3b4181eed1af70025e0, type: 3}
@@ -13287,6 +13299,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 912235050}
     m_Modifications:
+    - target: {fileID: 692910086442337789, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0cbd0e3966296b84aab3fad5fbefcd82, type: 3}
     - target: {fileID: 809221928898526048, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -13334,6 +13350,10 @@ PrefabInstance:
     - target: {fileID: 1069283533421685959, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151706345134735337, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
+      propertyPath: m_text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1474084462001547803, guid: 6e5e1944fd5d08a4a818ec5925d124d5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

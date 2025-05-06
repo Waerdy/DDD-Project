@@ -7,6 +7,7 @@ public class CoinCollecter : MonoBehaviour
 {
     private int Coins = 0;
     public TextMeshProUGUI UIupdate;
+    public TextMeshProUGUI UIupdateShop;
     public AudioSource CSound;
 
     private void OnTriggerEnter(Collider coinC)
@@ -17,6 +18,7 @@ public class CoinCollecter : MonoBehaviour
             Coins++;
             CSound.Play();
             UIupdate.text = Coins.ToString();
+            UIupdateShop.text = Coins.ToString();
             Debug.Log("Coin pickup");
         }
     }
