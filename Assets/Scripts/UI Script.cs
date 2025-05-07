@@ -49,6 +49,7 @@ public class UI_Script : MonoBehaviour
     public GameObject Sign3;
     public GameObject Sign4;
     public GameObject Sign5;
+    public GameObject Sign6;
 
     public void Sign1ExitPress()
     {
@@ -69,5 +70,9 @@ public class UI_Script : MonoBehaviour
     public void Sign5ExitPress()
     {
         Sign5.SetActive(false);
+    }
+    public void Sign6ExitPress()
+    {
+        Sign6.SetActive(false);
     }
 }
