@@ -50,6 +50,8 @@ public class UI_Script : MonoBehaviour
     public GameObject Sign4;
     public GameObject Sign5;
     public GameObject Sign6;
+    public GameObject Sign7;
+    public GameObject Sign8;
 
     public void Sign1ExitPress()
     {
@@ -74,5 +76,13 @@ public class UI_Script : MonoBehaviour
     public void Sign6ExitPress()
     {
         Sign6.SetActive(false);
+    }
+    public void Sign7ExitPress()
+    {
+        Sign7.SetActive(false);
+    }
+    public void Sign8ExitPress()
+    {
+        Sign8.SetActive(false);
     }
 }
