@@ -1,1 +1,235 @@
-Test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Explorer - Virtual University Tour Game</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #34495e;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .team {
+            font-style: italic;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .download-section {
+            background-color: var(--secondary);
+            padding: 3rem;
+            border-radius: 10px;
+            text-align: center;
+            margin: 2rem 0;
+            color: white;
+        }
+        
+        .btn-download {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-download:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .feature {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .screenshot {
+            height: 180px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .screenshot img {
+            transition: transform 0.3s ease;
+        }
+        
+        .screenshot:hover img {
+            transform: scale(1.05);
+        }
+        
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .download-section {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Campus Explorer!</h1>
+        <p class="subtitle">Your Interactive University Campus Guide</p>
+    </header>
+    
+    <div class="container">
+        <p class="team">Developed by: Adam, Ewan, and Spencer</p>
+        
+        <div class="download-section">
+            <h2>Ready to explore your future university?</h2>
+            <p>Download Campus Explorer now and start your virtual journey!</p>
+            <a href="https://github.com/Waerdy/DDD-Project/releases/download/GameDownload/Games_04_Game.zip" class="btn-download" download>DOWNLOAD GAME</a>
+        </div>
+        
+        <section>
+            <h2>About Campus Explorer</h2>
+            <p>Campus Explorer is an interactive induction game designed for prospective university students who want to familiarize themselves with their future campus environment. Whether you missed the open day, want additional information, or simply prefer exploring at your own pace, Campus Explorer offers an engaging way to learn about university facilities from anywhere, anytime.</p>
+            <p>Navigate through an accurate representation of the university campus, interact with buildings to learn about different departments, collect coins for rewards, and discover all the university has to offer in this interactive experience!</p>
+        </section>
+        
+        <section class="features">
+            <div class="feature">
+                <h3>Accurate Campus Map</h3>
+                <p>Explore a detailed top-down map of the university with accurate building layouts, pathways, trees, and grass areas designed to match the real campus environment.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>Interactive Learning</h3>
+                <p>Interact with buildings and signposts across the campus to receive valuable information about different areas, helping you understand what happens in each facility.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>Explore & Collect</h3>
+                <p>Find and collect coins scattered throughout the campus that can be spent in the in-game shop on cosmetic items, access to special areas, and other rewards.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>Navigation Assistance</h3>
+                <p>Use the mini-map feature to easily track your location and find your way around the campus, just like you would in real life.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>Immersive Experience</h3>
+                <p>Enjoy background music and sound effects that enhance your virtual campus tour experience, making exploration more engaging and fun.</p>
+            </div>
+            
+            <div class="feature">
+                <h3>Accessible Anywhere</h3>
+                <p>Access the game on your computer or through a web browser, allowing you to explore your future university whenever and wherever you want.</p>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Game Screenshots</h2>
+            <div class="screenshots">
+                <div class="screenshot">
+                    <img src="/img/map.png" alt="Campus Map View" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                </div>
+                <div class="screenshot">
+                    <img src="/img/iteraction.png" alt="Building Interaction" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                </div>
+                <div class="screenshot">
+                    <img src="/img/shop.png" alt="Shop Interface" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                </div>
+                <div class="screenshot">
+                    <img src="/img/roof.png" alt="Rooftop View" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Why Campus Explorer?</h2>
+            <p>Campus Explorer was developed to solve a common problem: many students apply to universities without being familiar with the campus environment. While open days and virtual tours are available, they aren't always accessible to everyone.</p>
+            <p>Our game provides an interactive and informative alternative, allowing prospective students to learn about the university at their own pace. It's not meant to replace in-person visits but to supplement them, giving you a head start in understanding your future academic home.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Campus Explorer Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
